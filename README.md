@@ -8,10 +8,6 @@ git clone -b https://github.com/MarceloPereiraAntonio/Laravel_api_mercado_livre.
 cd name your project
 ```
 
-Suba os containers do projeto
-```sh
-docker-compose up -d
-```
 Crie o Arquivo .env
 ```sh
 
@@ -27,15 +23,19 @@ DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
 DB_DATABASE=Laravel
-DB_USERNAME=user
-DB_PASSWORD=root
+DB_USERNAME=youruser
+DB_PASSWORD=yourpassword
 
 ```
+Suba os containers do projeto
+```sh
+docker-compose up -d
+```
+
 Acesse o container app
 ```sh
 docker-compose exec app bash
 ```
-
 
 Instale as dependências do projeto
 ```sh
