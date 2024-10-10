@@ -1,5 +1,11 @@
+## Passo a passo para rodar esse projeto
+Como iremos usar a API do Mercado livre você precisa criar uma conta na plataforma caso ainda não tenha:
+Acesse https://www.mercadolivre.com.br/
 
-### Passo a passo para rodar esse projeto
+Feito a sua conta você vai precisar acessar o proximo link para criar suas aplicações com o Mercado Livre:
+https://developers.mercadolivre.com.br/devcenter
+
+
 Clone Repositório
 ```sh
 git clone -b https://github.com/MarceloPereiraAntonio/Laravel_api_mercado_livre.git
@@ -7,6 +13,7 @@ git clone -b https://github.com/MarceloPereiraAntonio/Laravel_api_mercado_livre.
 ```sh
 cd name your project
 ```
+![Captura de tela de 2024-10-09 22-52-34](https://github.com/user-attachments/assets/8fbc512f-8ba5-486e-96c5-a408f11e0f69)
 
 Crie o Arquivo .env
 ```sh
