@@ -26,6 +26,14 @@ DB_DATABASE=Laravel
 DB_USERNAME=youruser
 DB_PASSWORD=yourpassword
 
+# Variáveis para configuração da API do Mercado Livre
+
+# ID da aplicao criada 
+ID_APP_MELI=
+URI_REDIRECT=
+CLIENT_SECRET=
+CODE_ID=
+
 ```
 Suba os containers do projeto
 ```sh
